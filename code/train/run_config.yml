@@ -123,7 +123,7 @@ amlcompute:
   # VM size of the Cluster to be created.Allowed values are Azure vm sizes.The list of vm sizes is available in 'https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-sizes-specs
   vmSize: Standard_D12
   # VM priority of the Cluster to be created. Allowed values are:"dedicated" , "lowpriority".
-  vmPriority: dedicated
+  vmPriority: lowpriority
   # A bool that indicates if the cluster has to be retained after job completion.
   retainCluster: false
   # Name of the cluster to be created. If not specified, runId will be used as cluster name.
