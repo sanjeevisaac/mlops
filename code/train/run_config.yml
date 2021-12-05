@@ -121,12 +121,12 @@ sourceDirectoryDataStore:
 # AmlCompute details.
 amlcompute:
   # VM size of the Cluster to be created.Allowed values are Azure vm sizes.The list of vm sizes is available in 'https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-sizes-specs
-  vmSize:
+  vmSize: Standard_D12
   # VM priority of the Cluster to be created. Allowed values are:"dedicated" , "lowpriority".
-  vmPriority:
+  vmPriority: dedicated
   # A bool that indicates if the cluster has to be retained after job completion.
   retainCluster: false
   # Name of the cluster to be created. If not specified, runId will be used as cluster name.
   name:
   # Maximum number of nodes in the AmlCompute cluster to be created. Minimum number of nodes will always be set to 0.
-  clusterMaxNodeCount:
+  clusterMaxNodeCount: 1
